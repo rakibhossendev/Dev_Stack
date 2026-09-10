@@ -4,7 +4,7 @@ import navLogo from "../../assets/logo-text.png"
 export default function Navbar(){
 
     return (
-        <nav className="container mx-auto py-5 sticky">
+        <nav className="container mx-auto py-5 sticky top-0 bg-[#FFFFFF]">
             <div className="flex justify-between">
                 <IoMenu className="block md:hidden text-4xl cursor-pointer p-2 "></IoMenu>
                 

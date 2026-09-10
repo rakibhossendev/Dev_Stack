@@ -4,6 +4,7 @@ import {ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Navbar from './components/Navbar/Navbar';
 import HeroSection from './components/Hero/Hero';
+import TechnologiesHome from './components/Technologies/TechnologiesHome';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
 
     <Navbar></Navbar>
     <HeroSection></HeroSection>
+    <TechnologiesHome/>
     <ToastContainer/>
     </>
   )
