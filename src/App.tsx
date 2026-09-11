@@ -5,6 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Navbar from './components/Navbar/Navbar';
 import HeroSection from './components/Hero/Hero';
 import TechnologiesHome from './components/Technologies/TechnologiesHome';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <Navbar></Navbar>
     <HeroSection></HeroSection>
     <TechnologiesHome/>
+    <Footer></Footer>
     <ToastContainer position="bottom-right" toastClassName="!w-[380px] !min-h-[70px] !text-base font-bold p-4"/>
     </>
   )

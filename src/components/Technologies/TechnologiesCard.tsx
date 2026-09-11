@@ -1,6 +1,5 @@
 import { CiStar } from "react-icons/ci"
 import type { TechnologiesDataType } from "../../TypeScript/TechnologyDataType"
-import { useState } from "react"
 import { toast } from "react-toastify";
 import type { AddedStackType } from "../../TypeScript/AddedStackType";
 
