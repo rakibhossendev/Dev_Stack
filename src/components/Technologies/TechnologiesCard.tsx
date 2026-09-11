@@ -40,7 +40,7 @@ export default function TechnologiesCard({data,updateStackData,addedStackData}: 
             </div>
 
             <div className="p-3 flex justify-center">
-               {isAdded ? <h1 className="text-lg font-bold cursor-not-allowed mb-6 text-[#DB2777] bg-[#fcecf3] py-3 w-[90%] text-center rounded">Added to Stack</h1> : <button onClick={handleAddToStack} className="w-full bg-[#0A0F1D] py-3 text-white rounded-lg text-lg cursor-pointer mb-6 font-extrabold hover:bg-[#1e2129]">Add To Stack</button>} 
+               {isAdded ? <h1 className="text-lg font-bold cursor-not-allowed mb-6 text-[#DB2777] bg-[#fcecf3] py-3 w-[90%] text-center rounded">✓ Added to Stack</h1> : <button onClick={handleAddToStack} className="w-full bg-[#0A0F1D] py-3 text-white rounded-lg text-lg cursor-pointer mb-6 font-extrabold hover:bg-[#1e2129]">Add To Stack</button>} 
             </div>
 
 

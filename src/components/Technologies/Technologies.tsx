@@ -14,7 +14,7 @@ export default function Technologies({technologiesPromise,updateStackData,addedS
     const technologiesData = use(technologiesPromise);
     
     return (
-        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
+        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:grid-cols-2 gap-5 mt-5">
             {technologiesData.map(data => <TechnologiesCard addedStackData={addedStackData} updateStackData={updateStackData} key={data.id} data={data}></TechnologiesCard>)}
           
         </section>
