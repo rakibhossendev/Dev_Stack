@@ -5,8 +5,8 @@ export default function Navbar(){
 
     return (
         <nav className="container mx-auto py-5 sticky top-0 z-50 bg-[#FFFFFF]">
-            <div className="flex justify-between">
-                <IoMenu className="block md:hidden text-4xl cursor-pointer p-2 "></IoMenu>
+            <div className="flex justify-center items-center sm:justify-between">
+                <IoMenu className="block md:hidden text-5xl cursor-pointer p-2 "></IoMenu>
                 
                 <img className="w-fit h-fit" src={navLogo} alt="Navbar logo"/>
 
@@ -19,7 +19,7 @@ export default function Navbar(){
                 </ul>
 
                 <div>
-                    <button className="mx-4 p-3 px-3 rounded-2xl text-lg font-bold cursor-pointer ">Sign In</button>
+                    <button className="mx-4 px-4 p-2  sm:p-3 sm:px-3 rounded-2xl text-lg font-bold cursor-pointer ">Sign In</button>
                     <button className=" p-3 px-4 rounded-2xl text-lg font-bold bg-[#DB2777] text-white cursor-pointer hover:bg-[#e5aec7] hover:text-black">Sign Up</button>
                 </div>
             </div>
