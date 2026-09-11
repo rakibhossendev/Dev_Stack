@@ -16,7 +16,7 @@ function App() {
     <Navbar></Navbar>
     <HeroSection></HeroSection>
     <TechnologiesHome/>
-    <ToastContainer/>
+    <ToastContainer position="bottom-right" toastClassName="!w-[380px] !min-h-[70px] !text-base font-bold p-4"/>
     </>
   )
 }
